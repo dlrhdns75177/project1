@@ -1,0 +1,90 @@
+:root {
+  --color-primary: var(--color-black);
+  --color-accent: var(--color-blue);
+  --color-text: var(--color-white);
+
+  --color-white: #ffffff;
+  --color-black: rgb(33 33 33);
+  --color-blue: rgb(40 98 255);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.main__login {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 10px;
+  padding-left: 50px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+.login-form {
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.main__email {
+  margin: 1rem 0px;
+}
+
+.fa-envelope {
+  position: fixed;
+  margin-left: 23px;
+  margin-top: 17px;
+  z-index: 1;
+  color: lightgray;
+}
+
+.main__password {
+  margin: 1rem 0px;
+}
+
+.fa-lock {
+  position: fixed;
+  margin-left: 23px;
+  margin-top: 17px;
+  z-index: 1;
+  color: lightgray;
+}
+
+.main__script {
+  background-color: var(--color-black);
+  color: var(--color-text);
+}
+
+.main__log {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 7px;
+  margin-bottom: 5px;
+}
